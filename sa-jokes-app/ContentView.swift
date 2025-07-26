@@ -13,9 +13,8 @@ struct ContentView: View {
                  Joke(setup: "Where do you learn to make ice cream?",
                       punchline: "Sunday School"),
                  Joke(setup: "Did you hear about the cheese factory that exploded in France?",
-                      punchline: "There was nothing left but de Brie"),
-                 Joke(setup: "Dad, can you put my shoes on?",
-                      punchline: "I dont think they'll fit me")]
+                      punchline: "There was nothing left but de Brie")
+    ]
     
     @State private var showPunchline = false
     @State private var currentJoke = 0
