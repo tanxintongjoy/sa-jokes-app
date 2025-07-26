@@ -51,7 +51,7 @@ struct ContentView: View {
                     Text("What?")
                         .padding()
                         .background(Color.blue)
-                        .foregroundStyle(.white)
+                        .foregroundStyle(.red)
                 }
                 .padding()
                 
